@@ -22,3 +22,26 @@ form {
 img {
 	display: none;
 }
+
+table#events, #events th, #events td {
+	border: solid black 1px;
+}
+
+#events {
+	border-collapse: collapse;
+	display: inline-block;
+	/*width: calc(100% - 500px);*/
+}
+
+.past td, #events thead th {
+	background-color: lightyellow;
+}
+
+.positive, .thousand {
+	padding-left: 0.39em;
+}
+
+#events td:nth-child(2) {
+	min-width: 200px;
+	text-align: center;
+}
